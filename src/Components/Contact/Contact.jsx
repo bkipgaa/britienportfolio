@@ -16,6 +16,7 @@ const Contact = () => {
                 <div className="contact-left">
                     <h1>Let's talk</h1>
                     <p>I'm currently available to take on new projects, so feel free  to contact me</p>
+                    <div className='contact-details'>
                     <div className="contact-detail">
                         <img src={mail_icon} alt=""/>
                         <p>bkipgaa@gmail.com</p>
@@ -39,6 +40,8 @@ const Contact = () => {
                 <textarea name="message" rows="8" placeholder/>
                 <button type='submit' className='contact-submit'>Submit</button>
             </form>
+                    </div>
+                    
 
         </div>
 
